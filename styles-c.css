@@ -7,9 +7,9 @@
 }
 
 #main-info h1 {
-    font-size: 11rem;
+    font-size: 8rem;
     text-align: center;
-    margin: 20% auto 10%;
+    margin: 30% auto;
     background: linear-gradient(to right, #011e1f 70%, #f5ca9e);
     background-clip: text;
     color: transparent;
@@ -20,18 +20,18 @@
         top: -10rem;
     }
     25% {
-        top: 39rem;
+        top: 36rem;
     }
     50% {
-        top: 39rem;
+        top: 36rem;
         transform: rotate(40deg);
     }
     75% {
-        top: 39rem;
+        top: 36rem;
         transform: rotate(15deg);
     }
     100% {
-        top: 45rem;
+        top: 40rem;
         transform: rotate(25deg);
     }
 }

@@ -7,13 +7,31 @@
 }
 
 #main-info h1 {
-    font-size: 11rem;
+    font-size: 8rem;
     text-align: center;
-    margin: 20% auto 10%;
+    margin: 40% auto;
     background: linear-gradient(to right, #011e1f 70%, #f5ca9e);
     background-clip: text;
     color: transparent;
 }
+
+#no-display {
+    display: none;
+}
+
+ul li {
+    list-style-type: none;
+    font-size: 1.8rem;
+    padding: 2% 3%;
+    border: 1px solid black;
+    border-radius: 30px;
+    position: relative;
+    top: -10rem;
+    animation: button-drop 5s linear 0.3s forwards;
+}
+
+
+
 
 @keyframes button-drop {
     0% {
@@ -31,7 +49,7 @@
         transform: rotate(15deg);
     }
     100% {
-        top: 45rem;
+        top: 42rem;
         transform: rotate(25deg);
     }
 }
