@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    /* background-color: yellow; */
+}
+
+#projects img {
+    height: 25rem;
+}
+
+#skills-tech div {
+    margin: 4% auto;
+    width: 70%;
+    padding: 10% 6%;
+}
+
+#get-in-touch h3 {
+    margin: 4% 5.5%;
+}
+
+#get-in-touch div a {
+    text-decoration: none;
+    font-size: 2.2rem;
+    margin: 0 5%;
+}

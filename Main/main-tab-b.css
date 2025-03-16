@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    /* background-color: yellow; */
+}
+
+.intro img {
+    margin: 7% auto 4%;
+    width: 55%;
+    border-radius: 40%;
+}
+
+.intro p {
+    margin: 2% auto;
+}
+
+#about p {
+    font-size: 1.65rem;
+    margin: 2% auto;
+}
+
+#projects img {
+    height: 29rem;
+}
+
+#skills-tech {
+    display: flex;
+    flex-direction: column;
+}
+
+#skills-tech div {
+    margin: 3% auto;
+    width: 60%;
+    padding: 10% 6%;
+}
+
+#skills-tech div a {
+    font-size: 2.8rem;
+}
+
+#skills-tech div p {
+    font-size: 1.9rem;
+    margin: 13% auto;
+}
+
+
+#get-in-touch .links {
+    display: flex;
+    flex-direction: column;
+}
+
+#get-in-touch h3 {
+    font-size: 3.5rem;
+    margin: 2% 5.5%;
+    text-align: center;
+}
+
+#get-in-touch div {
+    width: 80%;
+    padding: 8% 3%;
+    border: 1px solid black;
+    margin: 2% auto;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+
+#get-in-touch div:hover {
+    padding: 9% 4%;
+    /* cursor: pointer; */
+}
+
+#get-in-touch div a {
+    text-decoration: none;
+    font-size: 2.5rem;
+    margin: 0 5%;
+}
+
+#contact {
+    margin: 3% 9%;
+}
+
+#contact h3 {
+    font-size: 2.9rem;
+    margin: 5% 0;
+}
+
+#contact input {
+    padding: 2.2%;
+}

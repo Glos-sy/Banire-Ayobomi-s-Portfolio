@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    /* background-color: yellow; */
+}
+
+/* MAIN STYLING */
+header {
+    padding: 3%;
+}
+
+.intro img {
+    margin: 5% auto;
+    width: 30%;
+    border-radius: 40%;
+    /* height: 60rem; */
+}
+
+.intro h2 {
+    font-size: 6rem;
+    margin: 1.5% auto;
+}
+
+.intro p {
+    font-size: 2.8rem;
+}
+
+#about h3 {
+    text-align: center;
+    font-size: 4.5rem;
+}
+
+#about p {
+    font-size: 1.9rem;
+    margin: 2% auto;
+}
+
+#projects img {
+    height: 42rem;
+    width: 100%;
+    border-radius: 15px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#get-in-touch div a {
+    text-decoration: none;
+    font-size: 2rem;
+    margin: 0 5%;
+}

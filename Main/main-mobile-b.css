@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    /* background-color: yellow; */
+}
+
+header i {
+    font-size: 2rem;
+    margin: 0 2%;
+}
+
+.intro h2 {
+    font-size: 3rem;
+    margin: 3% auto;
+}
+
+.intro p {
+    font-size: 1.8rem;
+    margin: 4% auto;
+}
+
+#about h3 {
+    /* text-align: center; */
+    font-size: 3.5rem;
+}
+
+#about p {
+    font-size: 1.6rem;
+    margin: 3% auto;
+}
+
+#projects img {
+    height: 16.5rem;
+}
+
+#projects h2 {
+    font-size: 3rem;
+    margin: 2.5% auto;
+}
+
+#projects h3 {
+    font-size: 1.8rem;
+    margin: 2.5% auto;
+}
+
+#skills-tech div {
+    margin: 4% auto;
+    width: 95%;
+    padding: 10% 6%;
+}
+
+#get-in-touch h3 {
+    font-size: 2.5rem;
+    margin: 6% 5.5% 4%;
+}
+
+#get-in-touch div {
+    padding: 8% 2.5%;
+}
+
+#get-in-touch div a {
+    text-decoration: none;
+    font-size: 1.65rem;
+    margin: 0 5%;
+}
+
+#get-in-touch i {
+    font-size: 2rem;
+}
+
+textarea {
+    font-size: 1.5rem;
+    padding: 3%;
+}
