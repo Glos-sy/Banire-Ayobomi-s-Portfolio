@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+    background-color: yellow;
+}
+
+#main-info h1 {
+    font-size: 10rem;
+    text-align: center;
+    margin: 13% auto;
+    background: linear-gradient(to right, #011e1f 70%, #f5ca9e);
+    background-clip: text;
+    color: transparent;
+}

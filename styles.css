@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* overflow: hidden; */
 }
 
 html {
@@ -73,10 +74,16 @@ ul li {
     font-size: 14rem;
     text-align: center;
     margin: 13% auto;
+    background: linear-gradient(to right, #011e1f 70%, #f5ca9e);
+    background-clip: text;
+    color: transparent;
 }
 
 a {
     text-decoration: none;
+    background: linear-gradient(to right, #011e1f 50%, #2d9da7);
+    background-clip: text;
+    color: transparent;
 }
 
 .mode {
