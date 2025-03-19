@@ -115,6 +115,10 @@ body {
     margin: 6% auto;
 }
 
+#projects a {
+    text-decoration: none;
+}
+
 .live {
     display: block;
     text-align: center;
@@ -187,7 +191,7 @@ body {
     width: 28%;
     transition: all 1s ease-in-out;
     background-image: linear-gradient(#f5ca9e, #2d9da7);
-    border: 1px solid #043c3e;
+    /* border: 1px solid #043c3e; */
     box-shadow: 2px 2px 5px #043c3e;
 }
 
@@ -305,7 +309,7 @@ textarea {
     width: 40%;
     padding: 2%;
     background-image: linear-gradient(#f5ca9e, #2d9da7);
-    border: 1px solid #043c3e;
+    /* border: 1px solid #043c3e; */
     box-shadow: 2px 2px 5px #043c3e;
     margin: 2% auto;
     border-radius: 15px;
