@@ -15,23 +15,34 @@
     color: transparent;
 }
 
+.view-more {
+    position: relative;
+    top: -20rem;
+    display: block;
+    text-align: center;
+}
+
+.view-more p {
+    margin: 2.3% auto;
+}
+
 @keyframes button-drop {
     0% {
         top: -10rem;
     }
     25% {
-        top: 36rem;
+        top: 45rem;
     }
     50% {
-        top: 36rem;
+        top: 45rem;
         transform: rotate(40deg);
     }
     75% {
-        top: 36rem;
+        top: 45rem;
         transform: rotate(15deg);
     }
     100% {
-        top: 40rem;
+        top: 50rem;
         transform: rotate(25deg);
     }
 }

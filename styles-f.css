@@ -30,6 +30,16 @@ ul li {
     animation: button-drop 5s linear 0.3s forwards;
 }
 
+.view-more {
+    position: relative;
+    top: -13rem;
+    display: block;
+    text-align: center;
+}
+
+.view-more p {
+    margin: 2.7% auto;
+}
 
 
 
@@ -38,18 +48,18 @@ ul li {
         top: -10rem;
     }
     25% {
-        top: 39rem;
+        top: 50rem;
     }
     50% {
-        top: 39rem;
+        top: 50rem;
         transform: rotate(40deg);
     }
     75% {
-        top: 39rem;
+        top: 50rem;
         transform: rotate(15deg);
     }
     100% {
-        top: 42rem;
+        top: 53.5rem;
         transform: rotate(25deg);
     }
 }

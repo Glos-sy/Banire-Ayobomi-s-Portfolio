@@ -9,10 +9,31 @@
 #main-info h1 {
     font-size: 11rem;
     text-align: center;
-    margin: 20% auto 10%;
+    margin: 14% auto 10%;
     background: linear-gradient(to right, #011e1f 70%, #f5ca9e);
     background-clip: text;
     color: transparent;
+}
+
+#main-info .sub-btn {
+    font-size: 1.7rem;
+    padding: 0.8% 3%;
+    border-radius: 15px;
+    border: none;
+    color: #052d2e;
+    font-weight: bold;
+    animation: button-swell 1.1s ease-in-out infinite;
+}
+
+
+/* ANIMATION */
+@keyframes button-swell {
+    0% {
+        padding: 1% 3.2%;
+    }
+    100% {
+        padding: 0.9% 3%;
+    }
 }
 
 @keyframes button-drop {
@@ -20,18 +41,18 @@
         top: -10rem;
     }
     25% {
-        top: 39rem;
+        top: 42rem;
     }
     50% {
-        top: 39rem;
+        top: 42rem;
         transform: rotate(40deg);
     }
     75% {
-        top: 39rem;
+        top: 42rem;
         transform: rotate(15deg);
     }
     100% {
-        top: 45rem;
+        top: 47rem;
         transform: rotate(25deg);
     }
 }

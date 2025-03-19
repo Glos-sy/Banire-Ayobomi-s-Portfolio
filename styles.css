@@ -10,24 +10,6 @@ html {
 }
 
 /* MAIN STYLING */
-#main-info p {
-    font-size: 2.5rem;
-    margin: 2% auto;
-    position: relative;
-    top: 0;
-}
-
-#main-info .sub-btn {
-    font-size: 1.8rem;
-    padding: 0.8% 3%;
-    border-radius: 15px;
-    /* animation */
-    animation: button-swell 1s ease-in-out infinite;
-}
-
-#main-info .sub-btn:hover {
-    cursor: pointer;
-}
 
 body {
     position: relative;
@@ -70,13 +52,44 @@ ul li {
     animation: button-drop 5s linear 0.3s forwards;
 }
 
+#main-info {
+    position: relative;
+}
+
 #main-info h1 {
     font-size: 14rem;
     text-align: center;
-    margin: 13% auto;
+    margin: 10% auto;
     background: linear-gradient(to right, #011e1f 70%, #f5ca9e);
     background-clip: text;
     color: transparent;
+}
+
+.view-more {
+    position: relative;
+    top: -11rem;
+    display: block;
+    text-align: center;
+}
+
+.view-more p {
+    font-size: 2.3rem;
+    margin: 1.3% auto;
+}
+
+
+#main-info .sub-btn {
+    font-size: 1.6rem;
+    padding: 0.6% 2.8%;
+    border-radius: 15px;
+    border: none;
+    color: #052d2e;
+    font-weight: bold;
+    animation: button-swell 1.1s ease-in-out infinite;
+}
+
+#main-info .sub-btn:hover {
+    cursor: pointer;
 }
 
 a {
@@ -98,10 +111,10 @@ a {
 /* ANIMATION */
 @keyframes button-swell {
     0% {
-        padding: 1% 3.1%;
+        padding: 0.9% 3%;
     }
     100% {
-        padding: 0.8% 3%;
+        padding: 0.7% 2.8%;
     }
 }
 
@@ -110,18 +123,18 @@ a {
         top: -10rem;
     }
     25% {
-        top: 45rem;
+        top: 48rem;
     }
     50% {
-        top: 45rem;
+        top: 48rem;
         transform: rotate(40deg);
     }
     75% {
-        top: 45rem;
+        top: 48rem;
         transform: rotate(15deg);
     }
     100% {
-        top: 50rem;
+        top: 53rem;
         transform: rotate(25deg);
     }
 }
