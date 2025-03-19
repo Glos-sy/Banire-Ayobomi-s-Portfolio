@@ -150,6 +150,15 @@ body {
     color: transparent;
 }
 
+#one h3, #two h3, #three h3, #four h3 {
+    font-size: 3.5rem;
+    margin: 3% auto;
+    text-align: center;
+    background: linear-gradient(to right, #011e1f, #f5ca9e 80%);
+    background-clip: text;
+    color: transparent;
+}
+
 
 .div-slide {
     width: 100%;
@@ -181,6 +190,7 @@ body {
 #more {
     display: block;
     text-align: center;
+    margin: 4% auto;
 }
 
 
