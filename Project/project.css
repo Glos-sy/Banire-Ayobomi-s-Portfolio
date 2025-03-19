@@ -53,6 +53,10 @@ a {
     text-decoration: none;
 }
 
+#view-more {
+    margin: 3% auto 10%;
+}
+
 
 @keyframes gradient {
     0% {
