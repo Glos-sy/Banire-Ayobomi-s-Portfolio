@@ -19,6 +19,7 @@ header {
 header i {
     font-size: 2.5rem;
     margin: 0 2%;
+    color: #501d85;
 }
 
 /* main */
@@ -305,6 +306,7 @@ textarea {
 
 #get-in-touch i {
     font-size: 3rem;
+    color: #501d85;
 }
 
 #get-in-touch h3 {
@@ -338,6 +340,11 @@ textarea {
     text-decoration: none;
     font-size: 2.2rem;
     margin: 0 5%;
+    color: #501d85;
+}
+
+#get-in-touch div a:active {
+    color: #043c3e;
 }
 
 footer {
