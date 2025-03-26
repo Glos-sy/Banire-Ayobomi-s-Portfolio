@@ -10,9 +10,6 @@
     font-size: 6.5rem;
     text-align: center;
     margin: 40% auto;
-    background: linear-gradient(to right, #011e1f 70%, #f5ca9e);
-    background-clip: text;
-    color: transparent;
 }
 
 .view-more {
