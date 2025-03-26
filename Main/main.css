@@ -85,6 +85,7 @@ body {
     /* text-align: center; */
     font-size: 4rem;
     color: #f5f5ff;
+    text-align: left;
 }
 
 #about p {
@@ -185,8 +186,12 @@ body {
 }
 
 #projects input {
-    padding: 1.5% 2%;
+    padding: 1.8% 2.7%;
     border-radius: 15px;
+}
+
+#projects input:hover {
+    cursor: pointer;
 }
 
 #skills-tech {
@@ -401,6 +406,7 @@ footer p {
 footer i {
     font-size: 1.8rem;
     margin: 0 0.5%;
+    color:#f5f5ff;
 }
 
 
