@@ -11,20 +11,31 @@ html {
 body {
     margin: 5% auto;
     overflow: auto;
-    background-size: 400% 400%;
+    background-size: 1000% 1000%;
     background-attachment: fixed;
-    height: 100vh;
-    background-image: linear-gradient(to right, #f5ca9e, #2d9da7, #013334 );
-    animation: gradient 15s ease infinite;
+    height: 120vh;
+    background: linear-gradient(#191970, #000000, #191970);
+    /* background: linear-gradient(135deg, #0d0d3b 20%, #0a0a0a 60%, #000000 100%); */
+    /* animation: background-animation 10s ease infinite; */
+}
+
+@keyframes background-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 h1 {
     margin: 2% auto;
     text-align: center;
     font-size: 4rem;
-    background: linear-gradient(to right, #011e1f 70%, #f5ca9e);
-    background-clip: text;
-    color: transparent;
+    color: #f5f5ff;
 }
 
 img {
@@ -42,11 +53,12 @@ input {
     font-size: 1.8rem;
     border: none;
     border-radius: 10px;
+    color: #0a0a0a;
 }
 
 input:hover {
     cursor: pointer;
-    background-image: linear-gradient(to right, #f5ca9e, #2d9da7, #013334 );
+    color: #0d0d3b;
 }
 
 a {
@@ -58,7 +70,7 @@ a {
 }
 
 
-@keyframes gradient {
+/* @keyframes gradient {
     0% {
         background-position: 0% 0%;
     }
@@ -68,4 +80,4 @@ a {
     100% {
         background-position: 0% 0%;
     }
-}
+} */

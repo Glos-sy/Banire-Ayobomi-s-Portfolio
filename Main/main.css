@@ -19,7 +19,8 @@ header {
 header i {
     font-size: 2.5rem;
     margin: 0 2%;
-    color: #501d85;
+    /* color: #501d85; */
+    color: #f5f5ff;
 }
 
 /* main */
@@ -29,8 +30,25 @@ body {
     background-size: 400% 400%;
     background-attachment: fixed;
     height: 100vh;
-    background-image: linear-gradient(to right, #f5ca9e, #2d9da7, #013334 );
-    animation: gradient 15s ease infinite;
+    background: linear-gradient(135deg, #0d0d3b 20%, #0a0a0a 60%, #000000 100%);
+    animation: background-animation 10s ease infinite;
+}
+/*
+    /* background-image: linear-gradient(to right, #f5ca9e, #2d9da7, #013334 ); */
+    /* animation: gradient 15s ease infinite; */
+    /* background: conic-gradient(#191970, #000000, #191970);
+*/
+
+@keyframes background-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .intro {
@@ -41,16 +59,13 @@ body {
 .intro h2 {
     font-size: 7rem;
     margin: 1.5% auto;
-    background: linear-gradient(to right, #011e1f 70%, #f5ca9e);
-    background-clip: text;
-    color: transparent;
+    color: #f5f5ff;
 }
 
 .intro p {
     font-size: 3rem;
-    background: linear-gradient(to right, #011e1f 70%, #f5ca9e);
-    background-clip: text;
-    color: transparent;
+    color: #f5f5ff;
+    font-family: "Dancing Script", cursive;
 }
 
 .intro img {
@@ -69,14 +84,13 @@ body {
 #about h3 {
     /* text-align: center; */
     font-size: 4rem;
-    background: linear-gradient(to right, #011e1f 70%, #f5ca9e);
-    background-clip: text;
-    color: transparent;
+    color: #f5f5ff;
 }
 
 #about p {
     font-size: 2rem;
     margin: 1% auto;
+    color: #f5f5ff;
 }
 /*
 #projects img {
@@ -138,26 +152,20 @@ body {
 #projects h2 {
     font-size: 3.5rem;
     margin: 2.5% auto;
-    background: linear-gradient(to right, #011e1f 70%, #f5ca9e);
-    background-clip: text;
-    color: transparent;
+    color: #f5f5ff;
 }
 
 #projects h3 {
     font-size: 2rem;
     margin: 2.5% 10%;
-    background: linear-gradient(to right, #011e1f 70%, #f5ca9e);
-    background-clip: text;
-    color: transparent;
+    color: #f5f5ff;
 }
 
 #one h3, #two h3, #three h3, #four h3 {
     font-size: 3.5rem;
     margin: 3% auto;
     text-align: center;
-    background: linear-gradient(to right, #011e1f, #f5ca9e 80%);
-    background-clip: text;
-    color: transparent;
+    color: #f5f5ff;
 }
 
 
@@ -192,6 +200,7 @@ body {
     display: block;
     text-align: center;
     margin: 4% auto;
+    border: none;
 }
 
 
@@ -201,10 +210,30 @@ body {
     border-radius: 15px;
     width: 28%;
     transition: all 1s ease-in-out;
-    background-image: linear-gradient(#f5ca9e, #2d9da7);
-    /* border: 1px solid #043c3e; */
-    box-shadow: 2px 2px 5px #043c3e;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #f5f5ff;
+    box-shadow: 2px 3px 8px rgba(255, 255, 255, 0.2);
 }
+
+.languages {
+    width: 28%;
+    position: relative;
+    z-index: 3;
+}
+
+ /* .languages::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    /* box-shadow: 0 0 0 5px red, 0 0 0 10px orange, 0 0 0 15px yellow, 0 0 0 25px blue, 0 0 0 30px indigo, 0 0 0 35px violet;
+    background: conic-gradient(red, orange, yellow, green, blue, indigo, violet);
+    mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+    mask-composite: exclude;
+}  */
 
 #skills-tech div:hover {
     cursor: pointer;
@@ -215,16 +244,27 @@ body {
 
 #skills-tech div a {
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 2.3rem;
     margin: 2% auto;
     margin-bottom: 10%;
-    color: #011e1f;
+    color: #f5f5ff;
+    font-weight: bold;
 }
 
 #skills-tech div p {
     font-size: 1.8rem;
     margin: 13% auto;
-    color: #013334;
+    color: #f5f5ff;
+}
+
+input#more {
+    border: none;
+    color: #0a0a0a;
+    font-size: 1.9rem;
+}
+
+input#more:hover {
+    color: #0d0d3b;
 }
 
 #experiences {
@@ -234,9 +274,7 @@ body {
 #experiences h3 {
     font-size: 2.5rem;
     margin: 1.2% auto;
-    background: linear-gradient(to right, #011e1f 70%, #f5ca9e);
-    background-clip: text;
-    color: transparent;
+    color: white;
 }
 
 #experiences p {
@@ -261,9 +299,7 @@ body {
 #contact h3 {
     font-size: 3.5rem;
     margin: 2% 0;
-    background: linear-gradient(to right, #011e1f 70%, #f5ca9e);
-    background-clip: text;
-    color: transparent;
+    color: #f5f5ff;
 }
 
 #contact form {
@@ -278,10 +314,16 @@ body {
     border-radius: 15px;
     border: none;
     font-size: 1.7rem;
+    color: #0a0a0a;
 }
 
 #contact input:hover {
     cursor: pointer;
+    color: #0d0d3b;
+}
+
+#contact input:focus {
+    outline: none;
 }
 
 textarea {
@@ -306,29 +348,28 @@ textarea {
 
 #get-in-touch i {
     font-size: 3rem;
-    color: #501d85;
+    color: #f5f5ff;
 }
 
 #get-in-touch h3 {
     font-size: 2.5rem;
     margin: 0.5% 5.5%;
-    background: linear-gradient(to right, #011e1f 70%, #f5ca9e);
-    background-clip: text;
-    color: transparent;
+    color: #f5f5ff;
 }
 
 #get-in-touch div {
     width: 40%;
     padding: 2%;
-    background-image: linear-gradient(#f5ca9e, #2d9da7);
-    /* border: 1px solid #043c3e; */
-    box-shadow: 2px 2px 5px #043c3e;
     margin: 2% auto;
     border-radius: 15px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #f5f5ff;
     transition: all 0.3s ease-in-out;
+    box-shadow: 2px 3px 8px rgba(255, 255, 255, 0.2);
 }
 
 #get-in-touch div:hover {
@@ -340,7 +381,7 @@ textarea {
     text-decoration: none;
     font-size: 2.2rem;
     margin: 0 5%;
-    color: #501d85;
+    color: #f5f5ff;
 }
 
 #get-in-touch div a:active {
